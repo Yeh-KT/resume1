@@ -1,19 +1,101 @@
-# Resume in YAML
-intro:
-  name: "你好，我是冠廷"
-  headline: "熱衷於解決問題的開發者"
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自我介紹</title>
+  <style>
+    body {
+      font-family: "Microsoft JhengHei", sans-serif;
+      background-color: #f4f6f9;
+      margin: 0;
+      padding: 0;
+    }
 
-education:
-  - school: "國立台中科技大學"
-    major: "電腦科學"
-    status: "Graduated 2024"
+    .container {
+      width: 80%;
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
 
-work_experience:
-  - period: "2024 - Present"
-    company: "Global Tech"
-    role: "Junior Web Developer"
-    achievements:
-      - "開發了 10+ 個響應式網頁"
-      - "提升了首頁載入速度 40%"
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+    }
 
-tech_stack: [JavaScript, Node.js, AWS, MongoDB]
+    h2 {
+      color: #34495e;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 5px;
+    }
+
+    p, li {
+      color: #555;
+      line-height: 1.8;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .highlight {
+      color: #3498db;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>自我介紹</h1>
+
+    <section>
+      <h2>基本資料</h2>
+      <p>
+        大家好，我叫<span class="highlight">冠廷</span>，
+        今年29歲，畢業於國立台中科技大學護理系。
+      </p>
+    </section>
+
+    <section>
+      <h2>學歷</h2>
+      <ul>
+        <li>國立台中科技大學 護理學系（2012 - 2017）</li>
+    
+      </ul>
+    </section>
+
+    <section>
+      <h2>經歷</h2>
+      <ul>
+        <li>曾參與校內 AI 專題開發</li>
+        <li>擔任程式設計社社長</li>
+        <li>於科技公司實習，負責前端網頁開發</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>技能</h2>
+      <ul>
+        <li>HTML / CSS / JavaScript</li>
+        <li>Python / Java</li>
+        <li>React 與 Node.js</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>自我期許</h2>
+      <p>
+        我希望能持續精進自己的程式能力，
+        未來成為一名優秀的軟體工程師，
+        並透過技術解決實際問題。
+      </p>
+    </section>
+  </div>
+
+</body>
+</html>
